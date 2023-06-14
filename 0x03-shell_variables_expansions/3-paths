@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The PATH contains $dirCount directories"
+echo $PATH | tr ':' '\n' | wc -l
